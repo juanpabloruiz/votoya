@@ -8,4 +8,4 @@ createServer((_, res) =>
       ? res.writeHead(500).end('Error del servidor')
       : res.writeHead(200, { 'Content-Type': 'text/html' }).end(data)
   )
-).listen(3001, () => console.log('🟢 http://localhost:3001'));
+).listen(3000, () => console.log('🟢 http://localhost:3000'));
