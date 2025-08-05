@@ -1,5 +1,5 @@
 <?php
-$conn = new mysqli("localhost", "yo", "pp", "votoya");
+$conn = new mysqli("localhost", "pablo", "pp", "votoar");
 $res = $conn->query("SELECT candidato, COUNT(*) as votos FROM votos GROUP BY candidato");
 ?>
 <!DOCTYPE html>
