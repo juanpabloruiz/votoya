@@ -1,0 +1,16 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+.boton {
+    background: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+.boton.secundario {
+    background: #6c757d;
+}
