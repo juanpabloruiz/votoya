@@ -1,6 +1,6 @@
 CREATE TABLE votos (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    candidato VARCHAR(255),
-    ip VARCHAR(45),
-    fecha DATETIME
+    candidato VARCHAR(50) NOT NULL,
+    ip VARCHAR(45) NOT NULL,
+    fecha DATETIME NOT NULL
 );
